@@ -64,6 +64,8 @@ public class Mining : BaseUnityPlugin
 		mining.Description.English("Increases damage done while mining and item yield from ore deposits.");
 		mining.Name.German("Bergbau");
 		mining.Description.German("Erhöht den Schaden während Bergbau-Aktivitäten und erhöht die Ausbeute von Erzvorkommen.");
+  		mining.Name.German("采矿");
+		mining.Description.German("提高采矿造成的伤害和从矿床中获得的产量");
 		mining.Configurable = false;
 
 		serverConfigLocked = config("1 - General", "Lock Configuration", Toggle.On, "If on, the configuration is locked and can be changed by server admins only.");
